@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 425808150}
   m_Layer: 0
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: ground tag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -781,10 +781,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3fdbe6c5a4a151047904989f5fb8c49b, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1307,6 +1307,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: block_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2796076818863150108, guid: e68cb8fe3a91a5b4b92d909c19448493,
+        type: 3}
+      propertyPath: m_TagString
+      value: block tag
       objectReference: {fileID: 0}
     - target: {fileID: 7556018110421118323, guid: e68cb8fe3a91a5b4b92d909c19448493,
         type: 3}
